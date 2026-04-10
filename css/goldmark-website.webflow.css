@@ -181,8 +181,9 @@ img {
   width: 100%;
   max-width: 1800px;
   height: 100%;
-  padding-right: var(--_spacing---4-rem);
-  padding-left: var(--_spacing---4-rem);
+  padding: 0 2rem;
+  /* padding-right: var(--_spacing---4-rem);
+  padding-left: var(--_spacing---4-rem); */
   margin-left: auto;
   margin-right: auto;
 }
@@ -1084,7 +1085,7 @@ img {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 .vertical-headline.center.process-point-container {
@@ -1485,8 +1486,8 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: center;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  /* padding-left: 4rem;
+  padding-right: 4rem; */
   display: flex;
 }
 
@@ -1503,8 +1504,6 @@ img {
 }
 
 .contact-info {
-  padding: var(--_spacing---0-25-rem) var(--_spacing---2-rem)
-    var(--_spacing---2-rem) var(--no-padding);
   grid-column-gap: var(--_spacing---2-rem);
   grid-row-gap: var(--_spacing---2-rem);
   border: 1px solid var(--transparent);
@@ -1698,7 +1697,7 @@ img {
 
 .embed-map-home {
   width: 500px;
-  height: 440px;
+  height: 443.5px;
 }
 
 .footer-description {
@@ -1851,8 +1850,8 @@ img {
 
   .container {
     max-width: none;
-    padding-right: var(--_spacing---2-rem);
-    padding-left: var(--_spacing---2-rem);
+    /* padding-right: var(--_spacing---2-rem);
+    padding-left: var(--_spacing---2-rem); */
   }
 
   .container.our-process-second-paragraph-container {
@@ -2186,6 +2185,21 @@ img {
   .navbar-2:where(.w-variant-1ce4d590-53f1-67d0-c5ca-9f0fee4d62d8) {
     display: block;
   }
+
+  .code-embed-2 {
+    /* display: none; */
+    width: 100%;
+  }
+  .embed-map-home {
+    width: 100%;
+    height: 440px;
+  }
+}
+
+.contact-inner,
+.contact-form-wrapper {
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -2206,8 +2220,8 @@ img {
   }
 
   .container {
-    padding-right: var(--_spacing---1-5-rem);
-    padding-left: var(--_spacing---1-5-rem);
+    /* padding-right: var(--_spacing---1-5-rem);
+    padding-left: var(--_spacing---1-5-rem); */
   }
 
   .container.our-process-second-paragraph-container {
@@ -2464,10 +2478,6 @@ img {
     padding-left: var(--_spacing---1-5-rem);
   }
 
-  .code-embed-2 {
-    display: none;
-  }
-
   .dropdown-list:where(.w-variant-1ce4d590-53f1-67d0-c5ca-9f0fee4d62d8) {
     inset: 1rem auto auto;
   }
@@ -2493,8 +2503,8 @@ img {
   .container {
     box-sizing: border-box;
     text-align: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
     overflow: visible;
   }
 
