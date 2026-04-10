@@ -2167,6 +2167,22 @@ img {
     width: 50px;
     height: 60px;
   }
+  .subtitle {
+    padding-left: 0;
+  }
+
+  .heading-2.about-subheading {
+    padding-left: 0;
+  }
+
+  .heading-4.about-heading.about-section {
+    padding-left: 0;
+  }
+
+  .button.button2.button-hero.white-12.new-button.w-inline-block,
+  .button.button2.button-hero.white-17.process-button.w-inline-block {
+    margin-left: 0;
+  }
 
   .container-2 {
     grid-column-gap: 0px;
